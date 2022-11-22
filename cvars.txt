@@ -1,0 +1,30 @@
+# Game
+
+ kGameName              = "ReReassembly"
+ kSensorRangeMultiplier = 1.5
+ kShipMaxSpeed          = 25000
+# kUpgradePCostC         = 4
+# kUpgradePCostR         = 1
+# kUpgradeBlockC         = 8
+# kUpgradeBlockR         = 1
+ kRecruitCostC          = 0.9
+ kReleaseCostC          = 0.85
+ kResourceFadeOutTime   = 5
+ kStationActivateC         = 850
+ kStationInterfaceDistance = 2250
+ kStationInterfaceTime     = 12
+ kStationLiberateC         = 650
+ kHealMaxDist              = 80
+ kAIDamageReproduceCooldown  = 0.1
+ kAIInitReproduceCooldown	 = 0.1
+ kHealthHealPerSecond 	= 6.500
+ 
+# Deep Space star config 
+
+ kStarColor           = 0xffffe3eb
+ kStarColorVariation  = 0.31
+ kStarInvDensity      = 467000
+ kStarLayers          = {{2907,35000,700},{16449,27000,14000},{37169,38000,22000}}
+ kStarNoiseScale   	  = 0.0006
+ kStarSizeRange       = {41,169}
+

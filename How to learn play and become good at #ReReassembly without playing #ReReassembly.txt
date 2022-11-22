@@ -1,0 +1,346 @@
+ _____________________________________________________________________________________________________
+│Welcome to How to learn play and become good at #ReReassembly without playing #ReReassembly‼‼!  .txt │
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ 
+CLAIMER:
+ 0) Cores magnetized towards minimum P values. Reason: swarmship-friendly.
+ 1) No Factory stat changes ever.
+ 2) No Generator energy stats changes except Farmer.
+ 3) All Optimisation-targeted options are prioritized.
+ 4) No ACTIVATE-feature block stat changes ever. Same for seed-plant-affecting blocks.
+‼5) General "Obvious" rule in case of unclear "buff"/"nerf" or missing Reason in ARSENAL sections for the sake of saving a lot of space and letting this .txt to be almost half the size: Bulky (cheap in relation to size) weaponry now has extra weight accompanying their entity for Stack case to be not as unfairly profitable. Bulky weaponry is always more cost-efficient. Extremely short range weaponry tends to become extra durable as it is required to be put on the outskirts. High-spread weaponry in general was slightly buffed. Close range weaponry with extensive projectile life (so not hitscan) is now much more lethal, while extremely long range weaponry is slightly less so. (I assume missiles by such weaponry. And not by nerfing their damage, but rather by having buffed close-range weaponry which typically turns out to be a great PD.) Reason: Consistency
+ 6) Weaponry range was targeted to be kept the same or very similiar.
+ 7) Weaponry with changed P value always have their old P value (if it was significant enough for me to remember chagning it) listed before the "→" arrow, because P changes were avoided all around for the sake of keeping vanilla as similiar to the original vanilla as possible (hence why most weaponry has received artificial barrelSize so the barrel won't grow together with extra damage). So, if there's just one single P value, congratz to me, I succeded at own objective keeping value the same.
+‼8) Miniscule changes (like +2.5% range, or -1% dmg, or modified Recoils) are being skipped in ARSENAL sections. Reason: "Assumption" variety + "Oneshot" savers or suggesters + Drone behaviour helpers.
+ 9) Every BUMPER feature is accompanied by deathFeatures=EXPLODE.
+‼10) All Smaller Thruster buff values were based on the best "normal" Thrust/P, hence why those "best" "normal" thrusters were not changed.
+
+DISCLAIMER:
+ 1) The amazing wording will NOT let you become good at #ReReassembly, but only know IF better than at Reassembly when you use the same hull from Reassembly and utilize associations of absolute same weapon loadouts over games having different effectivenesses and thus being "less good" or "more good". This means that you would only know if you are already good at it for competitively considering the weapon choices in Reassembly which you would not have considered in Reassembly. This also means that "you" means none other but the spaceship itself transforming into #ReReassembly universe. Yes, Interceptor, you've heard me right.
+
+
+
+~~BEGIN!~~
+
+____________________________________________________________________
+A: Farmer, strong general buff in weaponry. Reason: Low resistance, low mobility. (This additional reason applies to every FARMER ARSENAL section element)
+
+A1) FARMER SHIPSHAPING CHANGES:
+0) Core: 15P, Generator/sec 100, PowerCapacity 200, durability 0.75
+1) Hull: Fixed error: Capacity on Adapters, Reason: BAD_GAMEDESIGN_TWEAKS
+2) Armor: NONE
+3) Tractor: NONE
+4) Walls: 
+	Wedges:
+		Scale-5: Durability 1→0.9, Reason: Very spacious
+		Scale-6: Durability 1→0.805, Reason: Too spacious
+		Scale-7: Durability 1→0.715, Reason: Too very spacious
+		Scale-8: Durability 1→0.63, Reason: Very too spacious
+		Scale-9: Durability 1→0.55, Reason: Very too very spacious
+5) Resourse Containment Units:
+	Scale-2: 200→325, Reason: BAD_GAMEDESIGN_MATH
+6) Shields:
+	Scale-1: ShieldHealth=1050, Regen=150, Power=0.5, Reason: Regen Limitation offset too far		--buff
+	Scale-2: ShieldHealth=2600, Regen=180, Power=0.5, Reason: Regen Limitation offset too far		--buff
+	Scale-3: ShieldHealth=8500, Regen=500, Power=0.5, Reason: Regen Limitation offset too far		--buff
+7) Solar Panels: NONE
+8) Unobtanium Strut: 2P→1P
+9) Generators:
+	Power Distributor: 30P→15P, Generator/sec 100→45, PowerCapacity 300→325, Reason: Need variety
+	Scale-1: Capacity 100→20, Reason: BAD_GAMEDESIGN_TWEAKS
+	Scale-3: Generator/sec 500→525, PowerCapacity 1500→1650, Reason: Less safe, less space efficient, more heavy than Scale-1, existence more optimized blockcount-wise.
+10) Thrusters:
+	Scale-1: 26000Thrust/3P, Durability tweak, Reason: Speed Limitation offset too far, small thruster durability logic with a smaller effect extent for farmer		--buff
+	Scale-2: 49000Thrust/5P, Durability tweak, Reason: Speed Limitation offset too far, small thruster durability logic	with a smaller effect extent for farmer 	--buff
+	"Superthruster" (Scale-4): 28P, Density 1.5, ThrusterBoost 1→0.5, Durability 0.5, Reason: Superior to other thrusters at every single stat, hence huge Thrust/Mass nerf. Worsened ThrusterBoost cappable, is an inconsiderable stat.		--nerf
+
+A2) FARMER ARSENAL CHANGES:
+1) Heavy Turret: 300P, decreased RoF but keep DPS on level, slightly more energy efficiency, slightly more splash, more spread. Reason: Need variety versus MGVD-2 Bolshevik	--tiny buff
+2) MGVD-2 Bolshevik: 250P→170P, Damage 185, moderately more splash, huge spread. Reason: Need variety versus Heavy Turret		--buff
+3) RK-Standard: 3P, tremendous DPS upgrade despite tiny spread. Interfactionally, of short-range weaponry class, is between PD Subsystem and Defense Cannon.		--buff
+4) Minigun: 18P, considerable DPS upgrade. Interfactionally, analogous to Autocannon.		--buff
+5) MLS Avenger: 27P, considerable DPS upgrade. Must be more powerful than laser weaponry despite having miniscule projectile life.		--buff
+6) AF-75 Spitter: 11P→10P, considerable DPS upgrade.		--buff
+7) Swatter: 6P, tremendous DPS upgrade.		--buff
+8) Phalanx: 7P→4P, moderate DPS and energy efficiency upgrade to be a worthy range analog to MC3, though still least dmg/bullet in playable vanilla.
+9) MLS Anti-missile: 15P, considerable DPS upgrade, extra velocity accents on itself.
+10) Station Battery: 30P→20P, is PROXIMITY, slight splash increase. Reason: Didn't suffice at PD role nor does mathematically for ship destruction. (Also "bulky")
+11) SG-9 Scattergun: 17P, tremendous DPS upgrade, extra spread, increased projectile life.
+12) MC3: 23P, moderate DPS upgrade.
+13) HC2: 31P, moderate DPS upgrade.
+14) HC3: 59P, slight DPS upgrade, extra RoF for variety versus HC2.
+15) EXR-1 Railgun: 29P, significant DPS increase, considerable power requirement increase.
+16) Longbow: 566P, slight range decrease, slight DPS increase, slight extra RoF. Reason: Extre differentiation versus Antimatter Cannon
+17) Arkas PRP-1: 17P, immense power requirement increase.
+18) Arkas PRP-2: 38P, moderate damage increase, tremendous power requirement increase. Reason: BAD_GAMEDESIGN_MATH 		--buff
+19) Arkas PRP-3: 77P, considerable damage increase, significant power requirement increase. Reason: BAD_GAMEDESIGN_MATH		--strong buff
+20) Station Defence Laser: 25P, moderate damage increase, immense power requirement increase.		--buff}
+
+21) ZLM Sparrow: 57P, moderate DPS increase, moderate power consumption decrease.		--strong buff
+22) MM1: 68P, slight DPS increase, moderate power requirement increase.			--buff
+23) HM1: 191P, moderate DPS increase, considerable power requirement increase.		--buff
+
+24) MED Beam: 135P, 1350 Heal/sec, tripled power requirement. Reason: Didn't suffice at Heal Support role even with current heal block distance cvar.		--strong buff
+
+►
+____________________________________________________________________
+B: Red, strong general buff in weaponry. Not a single weapon has received any P-cost changes. Reason: Extremely low resistance causing close range weaponry to be a questionable choice. (This additional reason applies to every RED ARSENAL section element)
+
+B1: RED SHIPSHAPING CHANGES:
+0) Core: NONE
+1) Hull: Fixed error: Wrong durability and weight values on Adapter due to lacking tweaks after copypasting from whatever farmer-like faction hulls. Health-wise, it now suits perfecly to support the odd scale-2 Pent thruster. Reason: BAD_GAMEDESIGN_TWEAKS
+2) Storage Pod: NONE
+3) Thrusters:
+	Scale-1 Dish: 16000Thrust/2P, Reason: Speed Limitation offset too far		--strong buff
+	Scale-1 Pent: 50000Thrust/4P, Reason: Speed Limitation offset too far		--buff
+	Scale-2 Pent: 96000Thrust/7P, Reason: Speed Limitation offset too far		--buff
+	Flex Thruster: still 140000Thrust/19P but: Tuned down the "THRUSTER_IN port Thrust suck-in" exploit. Reason: Thrust Suckage
+
+B2: RED ARSENAL CHANGES:
+1) Blaster: 6P, ultimate DPS upgrade. Reduced weight, because brittle.
+2) Anti-Missile Laser: 3P, moderate damage increase but keept it's tiny 2 power/sec requirement. Reduced weight, because brittle.
+3) Laser: 68P, significant damage increase, considerable power requirement increase.
+4) Phaser: 27P, slight range increase, considerable DPS upgrade.
+5) Tempest: 93P, tweaked RoF to actually be roughly 40. Significant Damage increase. Reason: Optimisation, Burstyness quirk
+
+6) Drone Launcher: 82P, increased power consumption, longer replication, propertiary rework w/o gameplay difference (BUMPER-ized). Reason: High suicide rates
+
+7) Nanoassembler Beam: 122P, 1900 Heal/sec, tripled power requirement. Reason: Didn't suffice at Heal Support role even with current heal block distance cvar		--strong buff
+8) Nanoassembler Drone Launcher: 39P, 280 Heal/sec, kept power/second the same for more than double replicate time. Reason: Self-heal, optimisation		--buff
+
+►
+____________________________________________________________________
+C: Tinkrell, the only faction with "redesigned" roles list: keeping Kiter role but adding a consistent Skirmisher role, strong general buff in weaponry and shield role. Reason: Outsider, unique arsenal, unvarying arsenal (This additional reason applies to every TINKRELL ARSENAL section element)
+
+C1: TINKRELL SHIPSHAPING CHANGES:
+0) Core: NONE
+1) Hull: NONE
+2) RBank: Density 0.15, Reason: Same shape as hull but more spacious, increased density to 150% of original because in original vanilla was only used on stations. Though I did contradict myself by implementing slower ships with RBanks.
+3) Solar Array: NONE
+4) Shields:
+	Scale-1: 30P, ShieldHealth=1700, Regen=250, Power=0.8, Reason: Regen Limitation offset too far		--buff
+	Scale-2: 200P, ShieldHealth=6900, Regen=400, Power=0.8, Reason: Regen Limitation offset too far		--buff
+5) Thrusters:
+	Scale-1: 22500Thrust/3P, ThrusterBoost 2.5→3.5 Reason: Speed Limitation offset too far		--buff
+	Scale-2: 40000Thrust/5P, ThrusterBoost 2.5→3.5 Reason: Speed Limitation offset too far		--buff
+	Scale-3: ThrusterBoost 2.5→3.5		--buff
+
+C2: TINKRELL ARSENAL CHANGES:
+1) Defence Laser: 16P, tremendous damage increase, significant power consumption increase.		--strong buff
+2) Defence Laser (Scale-2): 90P, tremendous damage increase, considerable power consumption increase. Reason: Lower TurretSpeed in comparison to smaller analog.		--strong buff
+
+3) CannonBase: 1P, Damage 40→80, RoF 2→1.4, Power 11→7, Spread 0→0.08, Health 45.
+
+4) DISH_WEAPON Scale-1: 6P, Health 40, No longer DamageAmplifier, is now RateAmplifier. Included hints in blurb. Reason: Not loved
+5) DISH_WEAPON Scale-2: 8P, Health 40, Damage 60→120, now reduces RoF to set minimum, now reduces MuzzleVelocity to set minimum, power consumption no longer exponential. Included hints in blurb.
+6) RangeAmplifier: 5P→10P, Health 40, power requirements now exponential. Huge nerf to range boost. Reason: Huge
+7) ISOTRI_25_WEAPON: 6P→12P, Health 170, No longer a RateAmplifier, is now Diffusor. No longer requires power to double the RoF, costs other features. Reason: Unique, exposed
+8) VelocityAmplifier: 5P, Health 40, No longer amplifies RoF. Serves strong role at upgrading accuracy. Inlcuded hints in blurb.
+
+9) Drone Launcher: 79P, increased power requirement, longer replication, upgraded DPS, considerably increased lifetime, behaviour control addons w/o gameplay difference.
+10) Rocket Drone Launcher: 400P, significantly increased power consumption, upgraded DPS (one rocket specifically enough to one-shot the drone), upgraded accuracy & mobility, significantly increased lifetime, considerably increased drone durability, tremendously increased rocket damage, other behavior control tweaks.
+
+
+____________________________________________________________________
+D: Borg. Unplayable.
+
+D1 short:
+1) Thrusters:
+	Scale-1: 50000Thrust/4P
+	Scale-2: 105000Thrust/7P
+D2 short:
+1) Turreted Lasers: Extra differentiation between all laser weaponry, power requirement kept and adjusted to be multiple of size as was in vanilla. Reason: Variety
+2) Laser Drones: Scale-2 halved launch rate, halved P-cost, increased drone mobility. Scale-3 third of launch rate, third of P-cost, increased drone mobility. Reason: Excessive P-density, lack of tweaks due to block being unfinished.
+
+►
+____________________________________________________________________
+E: Terran, very small tweaks with some weaponry possibly becoming weaker. Not a single weapon has received any valueable P-cost changes. Terran stat values, being a starting faction, were specifically kept simple. Reason: High resistance, high mobility. (This additional reason applies to every TINKRELL ARSENAL section element)
+
+E1: TERRAN SHIPSHAPING CHANGES:
+0) Cores:
+	Command Module: 33P, Generator/sec 150, PowerCapacity 750
+	Station Command: 100P→80P, Reason: Stabilize value, "newbie faction" logic.
+1) Hull: NONE
+2) Containers:
+	Scale-1: Capacity 30, Reason: Terran containers known for their high durability/mass, so inner volume lower.		--nerf
+	Scale-2: Capacity 260, Reason:  Terran containers known for their high durability/mass, so inner volume lower.		--tiny nerf
+	Scale-3: Capacity 1160, Reason:  Terran containers known for their high durability/mass, so inner volume lower.		--tiny nerf
+3) Shields:
+	Shield Projector: 80P, ShieldHealth=3000, Regen=175, Reason: Regen Limitation offset too far		--buff
+	Station Shield Projector: 1250P, ShieldHealth=22000, Regen=450, Delay=3→5sec, Density=0.3, Reason: Regen Limitation offset too far, coverage price too high		--buff
+4) Harvester: NONE
+5) Miscellaneous: NONE
+6) Generators:
+	Scale-2: Capacity 400. Reason: BAD_GAMEDESIGN_TWEAKS
+7) Thrusters:
+	Scale-1: 3P→2P, 18000Thrust/2P, Durability 8→16, Reason: Speed Limitation offset too far, Terran/Tinkrell small thruster durability logic too big jump, thrust value difference too small		--buff
+	Scale-2: 45000Thrust/4P, Durability 4→12, Reason: Speed Limitation offset too far, Terran/Tinkrell small thruster durability logic		--buff
+	Scale-3: Durability 4→8, Reason: small thruster durability logic missing versus Scale-2		--buff
+	"Asteroid" Thruster: 34P, Durability 0.5→0.84, Density 0.75, Reason: Superior to all other thrusters except for P-density, Worsened ThrusterBoost cappable, is an inconsiderable stat.		--nerf
+
+E2: TERRAN ARSENAL CHANGES:
+1) Plasma Cannons:
+	Scale-1: 17P, NONE! The perfectly balanced weapon in the scheme.
+	Scale-2: 72P, slight range and velocity increase, moderate power consumption increase.
+	Scale-3: 176P, moderate range and velocity increase, significant power consumption increase.
+2) Laser: 6P, Range 400→460, terrifying energy efficiency remains, Density 1.75, Durability 0.725 Reason: High Bulk and Close Range are the difficult combo. Thanks to low energy usage, the ever-so-great "Lancier" from Contestant of 500P range will still be able to shoot all Lasers in it's massively long stick despite the nerfed core.
+3) Proton Sword: 90P, tremendous power consumption increase, Density 2.25, Durability 0.75		--nerf
+4) Manipulator: 14P, ImmobilizeForce 80000		--buff
+5) Proton Beam: 90P, significant power requirement increase		--tiny nerf
+6) Defence Cannon: 6P, moderate DPS increase, Durability 0.5→2.1
+7) Autocannon: 34P, moderate RoF decrease leads to better energy efficiency and a slight damage increase.		--tiny nerf
+8) Plasma Projector: 18P, moderate damage increase, Durability 0.5→0.75
+9) Blast Pulser: 26P, slight RoF decrease, projectile life increase, enormous Damage/Energy coefficient increase.		--strong buff
+10) Railgun: 59P, slight Velocity increase being the only noticeable change. As in most other weaponry, tiny RoF and Power tweaks are not worth mentioning.	Reason: Move away from Scale-3 Plasma Cannon, low TurretSpeed	--tiny buff
+11) Burst Laser: 76P, significant power requirement increase, slightly shorter charge time, moderately higher discharge damage, minimum charge higher, Reason: Extremely effective versus superlight spacecraft, is probably the most consistent anti-drone.		--not really a buff mathematically, but it is a buff which makes it's charging nature more noticeable.
+12) Antimatter Cannon: 482P, Durability 0.25→0.35, Damage 500→600, significant power requirement increase.
+13) Flak Cannon: 22P, Durability 0.5→1.3, slightly less RoF but slightly more Damage, now has Spread, moderate power consumption (per second) increase.		--nerf
+14) Plasma Mortar: 86P, now has high spread, moderately decreased velocity, significantly increased power consumption, frag tweak, longer maximum charge, maximized minimum charge.	--HUGE NERF			...Reason: Explosion radius depends on charge. Is not the case for charging lasers. BAD_GAMEDESIGN_MATH
+
+15) Missile Launcher: 31P→32P, slight damage increase, slight lifetime decrease, considerable power requirement increase.
+16) Torpedo Launcher: 55P, considerable power consumption increase.
+17) Mine Layer: 79P, NONE, other than moderately increased speed upon launch.
+18) Rocket Launcher: 37P, moderately reduced splash, moderately increased Damage, slightly increased rate, slightly reduced acceleration, moderately reduced speed upon launch.		--buff
+19) Rocket Turret: 41P, moderately reduced splash, moderately increased Damage, very slightly increased rate, slightly reduced acceleration.		--buff
+20) Drone Launcher: 36P, drones can now run out of power when shooting one target for too long, resulting in less firepower vs durable targets, reduced replication rate.		--nerf
+
+►
+____________________________________________________________________
+F: Crystalline, increased efficiency at close-range, increased consistency at long-range, reduced efficiency vs speedy targets. Reason: Lacks consistent PD, is already a guaranteed succes at brawling thanks to perfect accuracy.  (This additional reason applies to every CRYSTALLINE ARSENAL section element)
+
+F1: CRYSTALLINE SHIPSHAPING CHANGES:
+0) Core: NONE
+1) Cryistallite: NONE
+2) Roots: extra density and durability.
+3) Thrusters:
+	Scale-1: 45000Thrust/3P, Reason: Speed Limitation offset too far		--strong buff
+	Scale-2: 103500Thrust/6P, Reason: Speed Limitation offset too far		--buff
+	Scale-3: 171000Thrust/9P, Reason: Speed Limitation offset too far		--buff
+
+F2: CRYSTALLINE ARSENAL CHANGES:
+1) Plasma Condensers:
+	Scale-1: moderate DPS upgrade, moderately decreased power consumption, moderate velocity reduction, extra durability, Reason: High P-density in relative typical ship construct		--kind of a buff
+	Scale-2: slight DPS upgrade, slightly decreased power consumption, moderate velocity reduction, extra durability, Reason: High P-density in relative typical ship construct		--kind of a buff
+	Scale-3: slight DPS upgrade, moderate velocity reduction, extra durability, Reason: High P-density in relative typical ship construct		--kind of a buff
+	Scale-4: moderate velocity reduction, extra durability, Reason: High P-density in relative typical ship construct		--kind of a slight buff
+2) Plasma Diffractor: increased durability in such way that it doesn't get one-shotted by HM1, considerably increased power usage, tremendously increased damage, now has huge spread, is PROXIMITY.		--strong buff
+
+3) Antimatter Missile Launchers:
+	Scale-1: considerable replication rate decrease, considerable damage increase (specifically one-shots Plasma diffractors), considerable durability missile increase, launcher Durability 0.5→1.52, moderate splash reduction.
+	Scale-2: significant replication rate decrease, significant damage increase, considerable durability missile increase, launcher Durability 0.5→1.52, slight splash reduction.
+
+►
+____________________________________________________________________
+G: Bees, rich numbers of close range weaponry which were buffed according to the General Rules have gotten this faction to become much more powerful. Arsenal has suffered a lot of P changes. Reason: Underused launchibles, close range nature. (This additional reason applies to every BEE ARSENAL section element)
+
+G1: BEE SHIPSHAPING CHANGES:
+0) Cores:
+	Command: 50P, Generator/sec 200, PowerCapacity 2400, Capacity 800, Density 0.2, Reason: Battery-discharge gameplay helps extensive close range skirmish... does AI consider own energy?
+	Subcommand: 30P, Generator/sec 120, PowerCapacity 1200, Density 0.45, Durability 2
+1) Light Bodywork: Regrow 16.5→25
+2) Heavy Bodywork: NONE
+3) Tractor Beam: Capacity 100→150, Reason: Lack of cheap storage options
+4) Shield: ShieldHealth=4250, Regen=225, Power=0.866, Capacity=600, Reason: Regen Limitation offset too far, lack of cheap storage options
+5) Roots: extra density and durability.
+6) Thrusters:
+	a) Impulse Thrusters:
+		Scale-1: 36000Thrust/3P, Reason: Speed Limitation offset too far		--buff
+		Scale-2: 82500Thrust/6P, Reason: Speed Limitation offset too far		--buff
+	b) Maneuver Thrusters:
+		Scale-1: 24700Thrust/5P, BoostTime reduced severely, Reason: ThrusterBoost capper, is a considerable feature		--buff
+		Scale-2: 50700Thrust/9P, BoostTime reduced severely, Reason: ThrusterBoost capper, is a considerable feature		--buff
+		Scale-2: 87750Thrust/13P, BoostTime reduced severely, Reason: ThrusterBoost capper, is a considerable feature		--buff
+
+G2: BEE ARSENAL CHAGNES:
+1) Quantum Doom Beams:
+	Scale-1: 23→27P, moderately increased damage, moderately increased power consumption, Durability 0.5→3.25, Reason: Extremly close range fixed weapon can have every little space and additional P-density matter.		--buff
+	Scale-2: 40→45P, moderately increased damage, moderately increased power consumption, Durability 0.5→3.25, Reason: Extremly close range fixed weapon can have every little space and additional P-density matter.		--buff
+2) PD Subsystems:
+	Scale-1: 3P→2P, Durability 0.5→1.25, significantly less power consumption, moderately more damage, moderately less range, Reason: PD Range differentiation for better options
+	Scale-2: 6P→3P, Durability 0.5→1.25, significantly less power consumption, Reason: PD Range differentiation for better options
+	Scale-2: 8P→4P, Durability 0.5→1.25, significantly less power consumption, slightly more splash, slightly more range, Reason: PD Range differentiation for better options
+
+3) Shard Launchers:
+	Scale-1: 16P, Launcher Durability 0.5→1.75, Shard Durability 0.5→1.1, Shard Density 0.15→0.03, moderately more splash.
+	Scale-2: 60P, Launcher Durability 0.5→1.5, Shard Durability 0.5→0.83, Shard Density 0.15→0.02, moderately more splash, slightly more speed upon launch for more range.
+4) Laser Drone Launchers:
+	Medium: 121P, propertiary rework w/o gameplay difference (BUMPER-ized). Reason: High suicide rates
+	Large: 189P, reduced replication rate for higher overall stats including lifetime, propertiary rework w/o gameplay difference (BUMPER-ized). Reason: High suicide rates, differentiation versus Medium
+5) Anchor Launcher: 50P→40P, higher overall stats, Reason: Did not suffice at own role.
+
+____________________________________________________________________
+H: Spiky Plants, Unplayable.
+
+H1 short:
+1) Thrusters:
+	Scale-1: 35000Thrust/4P,
+	Scale-2: 50000Thrust/5P,
+H2 short:
+1) Light Spines: less Melee damage, tweaked stats towards differentiation.
+
+2) Thistles: severe Replication rate decrease, tremendous damage increase, slightly less splash, range equalizer by lifetime.
+
+____________________________________________________________________
+I: Ethereal. Unplayable.
+
+I1 short:
+0) Core: 95P, Density 0.75, Generator/sec 400, PowerCapacity 1200
+1) Thrusters:
+	Scale-1: 28000Thrust/3P
+	Scale-2: 52000Thrust/5P
+
+I2 short:
+1) Burst Laser: 122P, significantly increased power consumption.
+
+►
+____________________________________________________________________
+J: Sentinel, most changes went into construct. Reason: Very resistant with low mobility and no shielding, unequal sense in hull types. (This additional reason applies to every SENTINEL ARSENAL section element)
+
+J1: SENTINEL SHIPSHAPING CHANGES:
+0) Core: 45P, Generator/sec 200, PowerCapacity 600
+1) Core Hull: Shifted values grant no difference in Thrust/Mass Durability, Reason: Space for Auxiliary Hull balance
+2) Auxiliary Hull: Grow Rate 30, Density x1.75 less than Core hull		--buff
+3) Armour:
+	Plate: 600hp/1P, 600hp/10mass (or ~500hp/6mass for Scale-1 Rect)
+	Spike: 225hp/1P, 450hp/10mass, less Melee damage
+4) Harvester: 5P→15P.		--nerf
+5) Thrusters:
+	Core:
+		Scale-1: 28500Thrust/3P, Density 200%, Durability 4→11, Reason: Due to [J Reasons] now contains Terran/Tinkrell small thruster durability logic, Speed Limitation offset too far
+		Scale-2: 55000Thrust/5P, Density 200%, Durability 4→7.5, Reason: Due to [J Reasons] now contains Terran/Tinkrell small thruster durability logic, Speed Limitation offset too far
+		Scale-3: 84000Thrust/7P, Density 200%, Reason: Speed Limitation offset too far
+	Auxiliary:
+		Scale-1: 17000Thrust/2P, Durability 2→5.5, Grow Rate 30, Reason: BAD_GAMEDESIGN_TWEAKS, Differentiation
+		Scale-2: 41000Thrust/4P, Durability 2→3.75, Grow Rate 30, Reason: BAD_GAMEDESIGN_TWEAKS, Differentiation
+		Scale-3: 69000Thrust/6P, Grow Rate 30, Reason: BAD_GAMEDESIGN_TWEAKS, Variety
+
+J2: SENTINEL ARSENAL CHANGES:
+1) Plasma Bolt: 12P, significant damage increase, Reason: Despite not being bulky, it is in comparison with the rest of Sentinel weaponry, as well as not being impressive in comparison to Station Battery when talking about it's strength. (If banilla was balanced, this gun would've costed like 9P)
+2) Annihilator: 47P, modest damage increase, slightly decreased RoF, slightly increased projectile lifetime, Reason: Is now analogous to Phaser, except better suiting for low-speed combat thanks to serious vanilla splash exactly enough to bypass Crystalline Scale-4 wide rhomb hull layer.
+3) Gauss Beam: 450P→205P, more sluggish charging, slightly more power required per damage, Reason: Analogous to 8/845 "Burst Laser" but fixed. Extremely effective versus superlight spacecraft with a very easy core snipe, but 450P is way too much and Obliterator was actually better at destruction, and there are now Gauss Drones anyway which are meant to deal with swarms of superlights, and being in swarm formation is very common for superlights.
+4) Obliterator: 2700P, Durability 5.5, considerably more damage, slightly more range, massively increased power consumption. Reason: Slight extra differentiation versus 14/14100 "Burst Laser", Crescent has tolerated this change and is still full of energy. Very P-Dense weapon has earned extra health to have considering the [J Reasons].
+
+5) Flurry Missiles: 67P, extra flurry and very much extra tough, now has ThrusterBoost 11 for better ranged indirect, launcher Durability 5, considerably less power consumption.
+6) Gauss Drones: ?→103P, fixed error of the ONEUSE fail by firing new before decay complete, now has ThrusterBoost 6.5 for better ranged indirect, behaviour control addons w/o gameplay difference.
+7) Nuclear Option: 2728P, Launcher Durability 3, Nuke Density 0.9, propertiary rework with total gameplay difference, replication time increased significantly, Fuse-based, behaviour control addons for less randomized gameplay experience, Reason: Hardcounter and Clownery unacceptable.
+
+____________________________________________________________________
+K: Jellyfish. Unplayable.
+
+K1 short:
+0) Core: 2P.
+1) Thrusters:
+	Scale-1: 1800Thrust/1P
+
+K2 short:
+no
+
+--------------------------------------------------------------------
+
+THE END.
+
+______/\/\/\/\/\/\__/\/\____/\/\__/\/\/\/\/\/\______/\/\/\/\/\/\__/\/\____/\/\__/\/\/\/\/\______________/\/\/\/\/\____/\/\____________/\/\______/\/\____/\/\______/\/\/\/\/\/\__/\/\____/\/\__/\/\/\/\/\/\________/\/\/\/\/\______/\/\______/\/\______/\/\__/\/\/\/\/\/\__________/\/\______/\/\________/\/\/\/\/\____/\/\/\/\/\/\______/\/\______/\/\/\/\/\____/\/\____/\/\_
+_________/\/\______/\/\____/\/\__/\________________/\____________/\/\/\__/\/\__/\/\____/\/\____________/\/\____/\/\__/\/\__________/\/\/\/\____/\/\____/\/\__________/\/\______/\/\____/\/\__/\________________/\/\____________/\/\/\/\____/\/\/\__/\/\/\__/\__________________/\/\/\/\____/\/\________/\/\____/\/\__/\______________/\/\/\/\____/\/\____/\/\__/\/\____/\/\__ 
+________/\/\______/\/\/\/\/\/\__/\/\/\/\/\________/\/\/\/\/\____/\/\/\/\/\/\__/\/\____/\/\____________/\/\/\/\/\____/\/\________/\/\____/\/\____/\/\/\/\____________/\/\______/\/\/\/\/\/\__/\/\/\/\/\________/\/\__/\/\/\__/\/\____/\/\__/\/\/\/\/\/\/\__/\/\/\/\/\________/\/\____/\/\__/\/\________/\/\/\/\/\____/\/\/\/\/\____/\/\____/\/\__/\/\____/\/\____/\/\/\/\_____
+_______/\/\______/\/\____/\/\__/\/\______________/\/\__________/\/\__/\/\/\__/\/\____/\/\____________/\/\__________/\/\________/\/\/\/\/\/\______/\/\______________/\/\______/\/\____/\/\__/\/\______________/\/\____/\/\__/\/\/\/\/\/\__/\/\__/\__/\/\__/\/\______________/\/\/\/\/\/\__/\/\________/\/\__/\/\____/\/\__________/\/\/\/\/\/\__/\/\____/\/\______/\/\________
+______/\/\______/\/\____/\/\__/\/\/\/\/\/\______/\/\/\/\/\/\__/\/\____/\/\__/\/\/\/\/\_____/\_______/\/\__________/\/\/\/\/\__/\/\____/\/\______/\/\______________/\/\______/\/\____/\/\__/\/\/\/\/\/\________/\/\/\/\/\__/\/\____/\/\__/\/\______/\/\__/\/\/\/\/\/\______/\/\____/\/\__/\/\/\/\/\__/\/\____/\/\__/\/\/\/\/\/\__/\/\____/\/\__/\/\/\/\/\________/\/\_________
