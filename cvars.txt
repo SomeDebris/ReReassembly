@@ -1,14 +1,14 @@
-# Game
+# Game, CHANGING THESE IS SINFUL, except for campaign ones
 
- kGameName              = "ReReassembly"
- kSensorRangeMultiplier = 1.5
+ kGameName              = "123Reassembly"
+ kSensorRangeMultiplier = 2.5
  kShipMaxSpeed          = 25000
 # kUpgradePCostC         = 4
 # kUpgradePCostR         = 1
 # kUpgradeBlockC         = 8
 # kUpgradeBlockR         = 1
- kRecruitCostC          = 0.9
- kReleaseCostC          = 0.85
+ kRecruitCostC          = 1.15
+ kReleaseCostC          = 0.9
  kResourceFadeOutTime   = 5
  kStationActivateC         = 850
  kStationInterfaceDistance = 2250
@@ -18,13 +18,39 @@
  kAIDamageReproduceCooldown  = 0.1
  kAIInitReproduceCooldown	 = 0.1
  kHealthHealPerSecond 	= 6.500
+ kTournamentBorderCollapseFraction = 0.75
+ kTournamentCollapseMinRadius = 300
+ kTournamentDisruptTime = 1.2
+ kTournamentMaxRadius = 19000
+ kAssemblerSpeed = 1600
+ kConstructorBlockLimit = 35000
+ kAIDamageReproduceCooldown = 0.01
+ kExplosionDamageToForce = 110
+ kSlowGrowRate = 0.2
  
 # Deep Space star config 
 
  kStarColor           = 0xffffe3eb
  kStarColorVariation  = 0.31
- kStarInvDensity      = 467000
- kStarLayers          = {{2907,35000,700},{16449,27000,14000},{37169,38000,22000}}
+ kStarInvDensity      = 567000
+ kStarLayers          = {{4907,32000,500},{36449,16500,21000},{87169,18000,22000}}
  kStarNoiseScale   	  = 0.0006
- kStarSizeRange       = {41,169}
+ kStarSizeRange       = {36,119}
+
+# Death feedback
+
+ kParticleFireAlpha = 0
+ kParticleFireColor0 = 0xff6500
+ kParticleFireColor1 = 0xee1200
+ kParticleFireRate = 25
+ kParticleFireSize = 1.75
+ kParticleFireTime = 1.1
+ kParticleSmokeAlpha = 1
+ kParticleSmokeColor = 0xa0211b1b
+ kParticleSmokeFireArcRange = {50,2000}
+ kParticleSmokeFireTime = {1,4.5}
+ kParticleSmokeFireVelocity_MeanStdev = {250,25}
+ kParticleSmokeRate = 15
+ kParticleSmokeSize = 5
+ kParticleSmokeTime = 2
 
